@@ -46,7 +46,7 @@ Provide installation instructions for your project. Include any dependencies and
 
 ```shell
 # Clone the repository
-git clone https://github.com/huangkun101230/360MultitaskGeometricEstimation.git
+git clone https://github.com/huangkun101230/360MTLGeometricEstimation.git
 cd 360MultitaskGeometricEstimation
 
 # Install dependencies
