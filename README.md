@@ -56,7 +56,7 @@ conda activate mtl360
 
 
 ## Running
-Please download our pretrained models, and save these models to "saved_models/models".
+Please [download our pretrained models](https://drive.google.com/drive/folders/1B_GI-3mc8hgLWi0OXq-msBbGxeyuyNeB?usp=sharing), and save these models to "saved_models/models".
 To test on provided data in "./input_data"
 ```shell
 python evaluate.py
