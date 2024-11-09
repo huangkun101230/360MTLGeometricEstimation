@@ -78,5 +78,9 @@ We mainly evaluate our method on [3D60 dataset](https://vcl3d.github.io/3D60/) a
 ## Citation
 If you find this repository useful in your project, please cite the following work. :)
 ```
-Coming soon.
-```
+@article{huang2024multi,
+  title={Multi-task Geometric Estimation of Depth and Surface Normal from Monocular 360 $\{$$\backslash$deg$\}$ Images},
+  author={Huang, Kun and Zhang, Fang-Lue and Zhang, Fangfang and Lai, Yu-Kun and Rosin, Paul and Dodgson, Neil A},
+  journal={arXiv preprint arXiv:2411.01749},
+  year={2024}
+}```
