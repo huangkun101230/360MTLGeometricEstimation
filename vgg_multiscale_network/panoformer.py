@@ -393,7 +393,7 @@ class Panoformer(nn.Module):
         # self.pos_drop = nn.Dropout(p=drop_rate)
 
         # stochastic depth
-        enc_dpr = [x.item() for x in torch.linspace(0, drop_path_rate, sum(depths[:self.num_enc_layers]))]
+        enc_dpr = [x.item() for x in torch.linspace(0, drop_path_rate, int(sum(depths[:self.num_enc_layers])))]
         conv_dpr = [drop_path_rate] * depths[4]
         # dec_dpr = enc_dpr[::-1]
 

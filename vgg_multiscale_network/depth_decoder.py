@@ -31,7 +31,7 @@ class DepthDecoder(nn.Module):
         self.ref_point16x32 = genSamplingPattern(16, 32, 3, 3).cuda()
         self.ref_point8x16 = genSamplingPattern(8, 16, 3, 3).cuda()
 
-        enc_dpr = [x.item() for x in torch.linspace(0, drop_path_rate, sum(depths[:self.num_enc_layers]))]
+        enc_dpr = [x.item() for x in torch.linspace(0, drop_path_rate, int(sum(depths[:self.num_enc_layers])))]
         dec_dpr = enc_dpr[::-1]
 
         self.output_proj0 = OutputProjDepth(in_channel=32 * embed_dim, out_channel=num_output_channels, kernel_size=3, stride=1,
