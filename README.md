@@ -33,7 +33,7 @@ Geometric estimation is required for scene understanding and analysis in panoram
 
 <p align="center">
   <a href="">
-    <img src="./assets/pipeline.png" alt="pipeline" width="95%">
+    <img src="./network.jpg" alt="pipeline" width="95%">
   </a>
 </p>
 <p align="left">
